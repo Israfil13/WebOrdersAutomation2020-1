@@ -6,7 +6,6 @@ import static org.testng.Assert.*;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 public class SmokeTest extends AbstractBaseTest {
 
     @Test(dataProvider = "smokeTestData")
